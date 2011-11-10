@@ -5,6 +5,7 @@ A small usage of connecting to MySQL Database and quick fetching data.
 
 ## Changelogs
 
+* Create Wikipages Documentation How to use
 * Add to GitHub Repository
 
 
@@ -17,9 +18,14 @@ A small usage of connecting to MySQL Database and quick fetching data.
 
 ## Quick start
 
-
-
-
+`
+<?php				
+$wfdb = WF_DB::connect();
+			
+$query = $wfdb->select('face_content');
+$test = $wfdb->select('face_content',array('where'=>array('ID='=>71),'ID','content_title'));
+?>
+`
 ## Features
 
 * wrapper used with MySQL
