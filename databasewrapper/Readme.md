@@ -13,7 +13,7 @@ A small usage of connecting to MySQL Database and quick fetching data.
 
 * need to be reworked for some reason i add so many variables i do not need
 * Querycounter does not work
-* data which inserted doesnt esacpe do not now why
+* data which inserted doesnt esacpe do not know why
 
 
 ## Quick start
